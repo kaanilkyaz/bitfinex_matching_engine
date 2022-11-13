@@ -1,0 +1,29 @@
+{
+  "name": "bitfiniex-orderbook",
+  "version": "1.0.0",
+  "description": "orderbook",
+  "main": "index.js",
+  "author": "Kaan Ilkyaz",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "start-grapes": "node server.js"
+  },
+  "dependencies": {
+    "amqp-connection-manager": "^4.1.9",
+    "async": "^3.2.4",
+    "async-lock": "^1.4.0",
+    "crypto": "^1.0.1",
+    "grenache-grape": "^0.9.11",
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
